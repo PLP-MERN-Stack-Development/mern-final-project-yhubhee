@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to HealingNet</title>
+</head>
+
+<body style="background-color: #f8f9fa; font-family: 'Roboto', sans-serif; color: #212529; margin: 0; padding: 20px;">
+  <div style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); overflow: hidden;">
+    
+    <!-- Header -->
+    <div style="padding: 30px; text-align: center;">
+      <h2 style="color: #13C5DD; font-size: 24px; margin-bottom: 20px;">Welcome to HealingNet!</h2>
+      <p style="margin-bottom: 15px; font-size: 16px;">Hi, <strong><%= name %></strong></p>
+      <p style="margin-bottom: 15px; font-size: 16px;">
+        We're thrilled to have you on HealingNet — your digital gateway to qualified healthcare professionals and wellness experts.
+      </p>
+      <p style="margin-bottom: 15px; font-size: 16px;">You can now:</p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div style="padding: 0 30px 30px 30px;">
+      <a href="http://localhost:3000/ui/search" style="display: block; text-align: center; background-color: #13C5DD; color: #ffffff; text-decoration: none; padding: 12px 20px; border-radius: 5px; font-weight: 500; margin-bottom: 10px;">🔍 Find a Doctor</a>
+      <a href="http://localhost:3000/ui/appointments" style="display: block; text-align: center; background-color: #13C5DD; color: #ffffff; text-decoration: none; padding: 12px 20px; border-radius: 5px; font-weight: 500; margin-bottom: 10px;">📅 Book an Appointment</a>
+      <a href="http://localhost:3000/patients/dashboard" style="display: block; text-align: center; background-color: #13C5DD; color: #ffffff; text-decoration: none; padding: 12px 20px; border-radius: 5px; font-weight: 500; margin-bottom: 10px;">🧾 View Medical Records</a>
+      <a href="http://localhost:3000/ui/contact" style="display: block; text-align: center; background-color: #13C5DD; color: #ffffff; text-decoration: none; padding: 12px 20px; border-radius: 5px; font-weight: 500;">💬 Contact Support</a>
+    </div>
+
+    <!-- Login Button -->
+    <div style="text-align: center; padding-bottom: 20px;">
+      <a href="http://localhost:3000/ui/login" style="display: inline-block; background-color: #0d6efd; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 999px; font-weight: 500; margin-top: 10px;">Login Now</a>
+    </div>
+
+    <hr style="border: none; border-top: 1px solid #dee2e6; margin: 0 30px;">
+
+    <!-- Footer -->
+    <div style="padding: 20px 30px; text-align: center; font-size: 14px; color: #6c757d;">
+      <p style="margin: 0 0 5px;">If you didn’t sign up for HealingNet, you can safely ignore this email.</p>
+      <p style="margin: 0;">&copy; <%= new Date().getFullYear() %> HealingNet. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
